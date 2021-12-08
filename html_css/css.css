@@ -1,0 +1,135 @@
+@import url(./fonts/css/fontiran.css);
+
+body {
+  font-family: IRANSans;
+  margin: 0;
+  direction: rtl;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  height: 75px;
+  padding-top: 10px;
+  border-top: 10px solid #45a132;
+  box-shadow: 0px 2px #e4e4e4;
+}
+
+.header img {
+  display: inline-block;
+  float: right;
+  width: 90px;
+  height: 60px;
+  margin-right: 100px;
+}
+ul {
+  margin: 20px;
+  display: block;
+}
+li {
+  list-style-type: none;
+  float: right;
+  color: #595959;
+  margin-right: 20px;
+}
+li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #595959;
+}
+
+li a:hover {
+  background: #45a132;
+  border-radius: 25px;
+  color: white;
+}
+
+.header button {
+  font-family: IRANSans;
+  display: block;
+  border-radius: 25px;
+  color: white;
+  background-color: #45a132;
+  padding: 5px 25px;
+  float: left;
+  margin-left: 50px;
+  border: none;
+}
+
+.content {
+  height: 335px;
+  display: flex;
+}
+.content span {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content1 span {
+  color: #595959;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.zard .item {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.item div:nth-child(2) {
+  color: #595959;
+
+  margin-top: 15px;
+}
+
+.item img {
+  background-color: #ffca1d;
+  padding: 15px 40px;
+  border-radius: 50%;
+  object-fit: contain;
+  width: 52px;
+  height: 95px;
+}
+
+.content2 {
+  background-color: #f2f2f2;
+}
+
+.content2 span {
+  padding-bottom: 30px;
+  color: #45a132;
+}
+
+.content2 .item2 {
+  margin-top: 20px;
+  padding: 30px 50px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.content2 .item2:hover {
+  border-bottom: 8px solid #45a132;
+}
+
+.content2 .item2 img {
+  height: 50px;
+}
+
+.item2 div:nth-child(2) {
+  margin-top: 15px;
+  color: #45a132;
+}
